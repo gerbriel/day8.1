@@ -1,16 +1,35 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 nav{
-    background-color: teal;
     margin: 0;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav-item{
+    display: inline-block;
+}
+.nav-right{
+    float: right;
+    margin: 5px;
 }
 a{
-    color: white;
+    color: black;
+    text-decoration: none;
 }
-
+.button{
+    background-color: white;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+}
+.button:hover{
+    background-color: lightgray;
+}
 h1{
     font-family: 'Combo', cursive;
 }
@@ -19,4 +38,61 @@ h3{
 }
 .logo{
     display: inline-block;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 20px;
+}
+section{
+    column-count: 3;
+    padding: 20px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    color: black;
+}
+.footer-row{
+    margin: 20px;
+}
+.header-row{
+    text-align: center;
+}
+.header-container{
+    width: 33%;
+    display: inline-block;
+}
+.project img{
+    width: 200px;
+}
+.homepage-img{
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+
+    background:linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80) no-repeat bottom center;
+
+}
+.title-text{
+    padding-top: 20vh;
+}
+.center-text{
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+.section{
+    display: inline-block;
+}
+.left-section{
+   height: 50vh;
+   width: 50%;
+   background-size: contain;
+    background-image: url(https://images.pexels.com/photos/4063794/pexels-photo-4063794.jpeg?auto=compress&cs=tinysrgb&w=800);
 }
